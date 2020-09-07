@@ -99,6 +99,7 @@ body {
 }
 
 .header {
+  text-align: center;
   padding: 1rem;
   width: auto;
   min-width: 50vw;
@@ -108,6 +109,7 @@ body {
 }
 
 .header__avatar {
+  margin-top: 2rem;
   max-width: 40%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 5px;
@@ -153,13 +155,13 @@ body {
   font-size: .5em;
 }
 
-.header a:hover {
+/* .header a:hover {
   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
   -webkit-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
   -moz-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
   -o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
-}
+} */
 
 .header__icon {
   width: 50px;
@@ -225,11 +227,3 @@ pre a:hover {
   -o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
 }
-
-/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 992px*/
-@media screen and (min-width: 1200) {
-  .header {
-    width: 50vw;
-  }
-}
-
