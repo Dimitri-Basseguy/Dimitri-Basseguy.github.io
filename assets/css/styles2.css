@@ -75,7 +75,6 @@ select {
   }
 }
 
-‡
 element {
   --super-pink: #FF0093;
   --dark-pink: #CD0077;
@@ -84,7 +83,11 @@ element {
   --darkest-violet: #300560;
 }
 
-/* START MY CSS */
+/* + + + + + + + + START MY CSS + + + + + + + + */
+/* + + + + + + + + START MY CSS + + + + + + + + */
+/* + + + + + + + + START MY CSS + + + + + + + + */
+/* + + + + + + + + START MY CSS + + + + + + + + */
+/* + + + + + + + + START MY CSS + + + + + + + + */
 html {
   scroll-behavior: smooth;
 }
@@ -100,7 +103,7 @@ body {
 
 .header {
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
   width: auto;
   min-width: 50vw;
   height: 100%;

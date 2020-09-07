@@ -1,0 +1,171 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em; }
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+/* + + + + + + + + START MY CSS + + + + + + + + */
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background-color: #300560;
+  font-family: 'Roboto Mono', monospace; }
+
+.mycontainer {
+  height: 100vh; }
+
+.header {
+  text-align: center;
+  padding: 2rem;
+  width: auto;
+  min-width: 50vw;
+  height: 100%;
+  color: beige;
+  background-image: linear-gradient(135.9deg, #6d19fc 16.4%, #7d1fa5 56.1%); }
+  .header__avatar {
+    margin-top: 2rem;
+    max-width: 40%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 5px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.19);
+    margin-bottom: 1rem; }
+  .header--glow:hover {
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1); }
+  .header__icon {
+    width: 50px;
+    margin: 1rem;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite; }
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg); } }
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+  .header__quote {
+    font-style: italic;
+    margin-top: 2rem; }
+  .header__certif {
+    width: 50px;
+    margin: 1rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 5px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.19); }
+  .header__certif__text {
+    font-size: .7em; }
+  .header__work {
+    font-size: 2em; }
+  .header a {
+    color: #FFD600;
+    font-size: .5em; }
+
+.me {
+  min-width: 50vw;
+  padding: 1rem;
+  color: beige; }
+  .me__1 {
+    color: #27A7FF; }
+  .me__var {
+    color: #FF1F69; }
+  .me__data {
+    color: #FF11F4; }
+  .me__comment {
+    color: #0058A5; }
+  .me__data--tab {
+    color: #01F4FA; }
+  .me__job {
+    color: #FFD600; }
+  .me > pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    color: beige;
+    font-size: .8em; }
+  .me pre a {
+    color: #01F4FA; }
+  .me pre a:hover {
+    color: #FFD600;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff;
+    -webkit-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1); }
+
+/*# sourceMappingURL=style3.css.map */
