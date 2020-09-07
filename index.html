@@ -1,22 +1,3 @@
-<?php 
-    $quote = [
-        'We have to stop optimizing for programmers and start optimizing for users.',
-        'If the code and the comments do not match, possibly both are incorrect.',
-        "Your mind is programmable - if you're not programming your mind, else will program it for you.",
-        "It’s not a bug. It’s an undocumented feature!",
-        "A user interface is like a joke. If you have to explain it, it’s not that good.",
-        "My code DOESN’T work, I have no idea why. My code WORKS, I have no idea why.",
-        "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
-        "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
-        "First, solve the problem. Then, write the code.",
-    ];
-
-    function randomQuote($param)
-    {
-      echo $param[mt_rand(0,(count($param)-1))];
-    };
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +16,7 @@
 <body style="margin: 0;">
     <div class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row align-items-xl-center mycontainer">
         <header class="d-flex flex-column justify-content-center align-items-center header">
-            <img class="header__avatar header--glow" src="assets/img/portrait-web.jpg" data-toggle="tooltip" title="<?php randomQuote($quote); ?>">
+            <img class="header__avatar header--glow" src="assets/img/portrait-web.jpg" data-toggle="tooltip" title="First, solve the problem. Then, write the code.">
             <h1>Hello i'm Dimitri</h1>
             <p>a Web developper</p>
             <p class="header__quote">i'm currently learning</p><img class="header__icon" src="https://static.formation.tech/formations/logos/889d72ed4da481c24ef573c9098b1a99.svg" />
